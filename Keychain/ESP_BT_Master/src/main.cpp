@@ -12,7 +12,7 @@ slave(header down)  : 24:6F:28:B0:4D:5A
 #define pinBat    25
 #define bat_full  32
 #define bat_low   33
-#define pinBuzz   26
+#define pinBuzz   14
 
 
 uint8_t address[6]    = {0x24, 0x6F, 0x28, 0xB0, 0x4D, 0x5A};

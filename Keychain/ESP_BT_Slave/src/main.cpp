@@ -12,7 +12,7 @@ slave(header down)  : 24:6F:28:B0:4D:5A
 #define pinBat    25
 #define bat_full  32
 #define bat_low   33
-#define pinBuzz   26
+#define pinBuzz   14
 
 BluetoothSerial SlaveBT;
 uint8_t address[6]    = {0x7C, 0x9E, 0xBD, 0x47, 0xA9, 0x26};
